@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+}
+header, nav, footer {
+  background: #003366;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+.container, .features, .contact, .login {
+  padding: 20px;
+}
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.product {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+}
+.product img {
+  width: 100%;
+  border-radius: 4px;
+}
+input[type=text], input[type=email], input[type=password], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+button {
+  background: #0077cc;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}

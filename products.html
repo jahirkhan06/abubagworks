@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ABU BAG WORKS - Products</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Our Products</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="contact.html">Contact</a>
+    <a href="login.html">Login</a>
+  </nav>
+
+  <div class="container">
+    <input type="text" id="searchBar" placeholder="Search for bags..." />
+
+    <div class="product-grid" id="productGrid">
+      <div class="product" data-name="School Bag">
+        <img src="https://via.placeholder.com/150" alt="School Bag">
+        <h3>School Bag</h3>
+        <p>Product Code: ABW101</p>
+        <button onclick="addToCart('ABW101')">Add to Cart</button>
+        <a class="whatsapp-order" href="https://wa.me/91XXXXXXXXXX?text=I'm%20interested%20in%20School%20Bag%20(ABW101)" target="_blank">Order via WhatsApp</a>
+      </div>
+      <div class="product" data-name="Office Bag">
+        <img src="https://via.placeholder.com/150" alt="Office Bag">
+        <h3>Office Bag</h3>
+        <p>Product Code: ABW102</p>
+        <button onclick="addToCart('ABW102')">Add to Cart</button>
+        <a class="whatsapp-order" href="https://wa.me/91XXXXXXXXXX?text=I'm%20interested%20in%20Office%20Bag%20(ABW102)" target="_blank">Order via WhatsApp</a>
+      </div>
+      <div class="product" data-name="Lunch Bag">
+        <img src="https://via.placeholder.com/150" alt="Lunch Bag">
+        <h3>Lunch Bag</h3>
+        <p>Product Code: ABW103</p>
+        <button onclick="addToCart('ABW103')">Add to Cart</button>
+        <a class="whatsapp-order" href="https://wa.me/91XXXXXXXXXX?text=I'm%20interested%20in%20Lunch%20Bag%20(ABW103)" target="_blank">Order via WhatsApp</a>
+      </div>
+      <div class="product" data-name="Tools Bag">
+        <img src="https://via.placeholder.com/150" alt="Tools Bag">
+        <h3>Tools Bag</h3>
+        <p>Product Code: ABW104</p>
+        <button onclick="addToCart('ABW104')">Add to Cart</button>
+        <a class="whatsapp-order" href="https://wa.me/91XXXXXXXXXX?text=I'm%20interested%20in%20Tools%20Bag%20(ABW104)" target="_blank">Order via WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>&copy; 2025 ABU BAG WORKS</footer>
+</body>
+</html>
